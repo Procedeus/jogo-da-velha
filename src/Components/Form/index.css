@@ -1,0 +1,69 @@
+.container-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-form > div{
+    text-align: center;
+}
+
+.container-form > div > h1{
+    font-size: 30px;
+    color: var(--text-alternate);
+}
+
+.form-jogador{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.form-jogador > input{
+    background-color: var(--input-color);
+    transition-duration: 200ms;
+}
+
+.form-jogador > input:focus{
+    outline: none;
+    transform: scale(1.02);
+}
+
+#jogador1{
+    border: var(--x-color) solid 1px;
+    color: var(--x-color);
+}
+
+#jogador1:focus{
+    border: var(--x-color) solid 2px;
+}
+
+#jogador2{
+    border: var(--o-color) solid 1px;
+    color: var(--o-color);
+}
+
+#jogador2:focus{
+    border: var(--o-color) solid 2px;
+}
+
+
+.form-jogador > button{
+    outline: none;
+    background-color: var(--button-color);
+    transition-duration: 200ms;
+}
+
+.form-jogador > button:hover{
+    transform: scale(1.02);
+}
+  
+.form-jogador > input, .form-jogador > button{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+}

@@ -1,0 +1,144 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.score > h2{
+    color: var(--text-alternate);
+}
+
+.score-jogador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 650px;
+    padding: 10px;
+    background-color: var(--score-color);
+    border-radius: 5px;
+}
+
+.score-jogador > div{
+    display: flex;
+    color: var(--text-alternate);
+    gap: 5px;
+}
+
+.score-jogador > h3, .score-jogador > div > h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vez{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vez > h1, .vez > h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.vez > h2{
+    color: var(--text-alternate);
+}
+
+.table-jogo{
+    width: 100%;
+}
+
+.table-jogo > tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.table-jogo > tbody > tr{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+.table-jogo > tbody > tr > td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 210px;
+    background-color: var(--td-color);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.15);
+    font-size: 70px;
+}
+
+.x{
+    color: var(--x-color);
+}
+.o{
+    color: var(--o-color);
+}
+
+@media screen and (max-width: 700px), (max-height: 780px) {
+    .table-jogo > tbody > tr > td {
+        width: 150px;
+        height: 150px;
+        font-size: 60px;
+    }
+    .score-jogador {
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 500px), (max-height: 600px){
+    .table-jogo > tbody > tr > td{
+        width: 120px;
+        height: 120px;
+        font-size: 50px;
+    }
+    .score-jogador{
+        width: 380px;
+    }
+
+    .vez > h1, .vez > h2{
+        font-size: 24px;
+    }
+
+    .score-jogador > h3, .score-jogador > div > h3{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 410px), (max-height: 500px){
+    .table-jogo > tbody > tr > td{
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+    }
+    .score-jogador{
+        width: 260px;
+    }
+
+    .vez > h1, .vez > h2{
+        font-size: 16px;
+    }
+
+    .score-jogador > h3, .score-jogador > div > h3{
+        font-size: 9px;
+    }
+}
