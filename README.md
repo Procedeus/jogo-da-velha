@@ -1,6 +1,6 @@
 # Jogo da Velha (Tic-Tac-Toe)
 
-![Screenshot do Jogo da Velha](screenshot.png)
+![Screenshot do Jogo da Velha](https://i.imgur.com/TFaLLNf.png)
 
 Este é um simples jogo da velha (Tic-Tac-Toe) desenvolvido com React, HTML, CSS e JavaScript. Ele permite que dois jogadores joguem o clássico jogo da velha em um ambiente web.
 
