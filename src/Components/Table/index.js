@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
-import { MdOutlineCircle } from "react-icons/md";
+import { PiCircleBold } from "react-icons/pi";
 import './index.css';
 
 const Table = ({jogador1, jogador2}) => {
@@ -98,7 +98,7 @@ const Table = ({jogador1, jogador2}) => {
                             handleMatriz(linhaIndex, colunaIndex);
                             }}
                         >
-                        {valor !== 0 ? (valor === jogador1 ? <FaTimes /> : <MdOutlineCircle />) : ''}
+                        {valor !== 0 ? (valor === jogador1 ? <FaTimes /> : <PiCircleBold />) : ''}
                         </td>
                         ))}
                     </tr>
