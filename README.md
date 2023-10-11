@@ -1,6 +1,10 @@
 # Jogo da Velha (Tic-Tac-Toe)
 
-![Screenshot do Jogo da Velha](https://i.imgur.com/TFaLLNf.png)
+<div align="center">
+  <a href="https://p-jogo-da-velha.netlify.app/">
+    <img src="https://i.imgur.com/yZD1vls.png" alt="Screenshot do jogo da velha">
+  </a>
+</div>
 
 Este é um simples jogo da velha (Tic-Tac-Toe) desenvolvido com React, HTML, CSS e JavaScript. Ele permite que dois jogadores joguem o clássico jogo da velha em um ambiente web.
 Deploy do projeto disponível [aqui](https://p-jogo-da-velha.netlify.app/)
